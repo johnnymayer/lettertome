@@ -10,21 +10,31 @@
 </head>
 
 <body>
+  <h1>Postcard Generator</h1>
+  <p>Enter a name below to receive a postcard image addressed to any name with a short message!</p>
   <div class="container">
     <div>
       <form id="formOne">
         <div class="form-group">
-          <label for="userName">A name</label>
-          <input id="userName" class="form-control" type="text">
+          <label for="userName"></label>
+          <input id="userName"  placeholder="enter a name here" class="form-control" type="text">
         </div>
-        <button type="submit" placeholder="enter name here" class="btn">submit</button>
+        <button type="submit" class="btn-primary">submit</button>
       </form>
     </div>
-
-    <div id="postcard">
-      <h1>Dear
+    <br>
+    <br>
+    <br>
+    <div>
       <p>
-
+        <div id="postcard">
+          <div>
+            <img src="img/postcard.jpeg">
+          </div>
+            <h2 id="userName2"><span class="userName"></span>,</h2>
+            <p id="smLorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam felis enim, malesuada ut ornare in, malesuada ut est. Curabitur finibus neque ut malesuada mattis. Mauris diam nibh, fringilla non egestas commodo!</p>
+          </div>
+      </div>
       </p>
     </div>
   </div>

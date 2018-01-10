@@ -1,11 +1,12 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
-    var userNameInput = $("input#userName").val();
+    var userName = $("input#userName").val();
 
-    $(".userName").text(userNameInput);
+    $(."userName").text(userNameInput);
 
     $("#postcard").show();
 
     event.preventDefault();
+
   });
 });
