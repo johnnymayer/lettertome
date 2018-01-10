@@ -1,11 +1,12 @@
-# Title
+# Simple Postcard Generator
 
 ## Introduction
+Enter any name, and a simple postcard is generated for you!
 
 ## Download
-Visit https://[INSERT] in your browser.
+Visit https://www.github.com/johnnymayer/lettertome for the repository.
 OR
-Clone via https://github.com/[INSERT]
+Clone via https://github.com/johnnymayer/lettertome.git
 
 ## Installation
 
