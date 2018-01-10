@@ -10,33 +10,47 @@
 </head>
 
 <body>
-  <h1>Postcard Generator</h1>
-  <p>Enter a name below to receive a postcard image addressed to any name with a short message!</p>
   <div class="container">
+    <h1>Postcard Generator</h1>
+    <p>Enter a name below to receive a postcard image addressed to any name with a short message!</p>
     <div>
       <form id="formOne">
         <div class="form-group">
           <label for="userName"></label>
-          <input id="userName"  placeholder="enter a name here" class="form-control" type="text">
+          <input id="userName" placeholder="enter a name here" class="form-control" type="text">
         </div>
-        <button type="submit" class="btn-primary">submit</button>
+        <div class="form-group">
+          <label for="senderName"></label>
+          <input id="senderName" placeholder="enter sender's name here" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="senderCity"></label>
+          <input id="senderCity" placeholder="enter sender's city here" class="form-control" type="text">
+        </div>
+        <div>
+          <button type="submit" class="btn-primary">submit</button>
+        </div>
       </form>
     </div>
     <br>
     <br>
     <br>
-    <div>
-      <p>
-        <div id="postcard">
-          <div>
-            <img src="img/postcard.jpeg">
-          </div>
-            <h2 id="userName2"><span class="userName"></span>,</h2>
-            <p id="smLorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam felis enim, malesuada ut ornare in, malesuada ut est. Curabitur finibus neque ut malesuada mattis. Mauris diam nibh, fringilla non egestas commodo!</p>
-          </div>
+    <p>
+      <div id="postcard">
+        <div>
+          <img src="img/postcard.jpeg">
+        </div>
+        <h2 id="userInfo"><span class="userName"></span>,</h2>
+        <p id="smLorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam felis enim, malesuada ut ornare in, malesuada ut est. Curabitur finibus neque ut malesuada mattis. Mauris diam nibh, fringilla non egestas commodo!</p>
+        <div id="senderInfo">
+          <h2>
+            <span class="senderName"></span>
+            <br>
+            <span class="senderCity"></span>
+          </h2>
+        </div>
       </div>
-      </p>
-    </div>
+    </p>
   </div>
 </body>
 
